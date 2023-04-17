@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# NETFLIX CLONE 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built using Reactjs,Firebase and Tailwind CSS. 
 
-## Available Scripts
+## Snapshots
+### HOMEPAGE
+![image](https://user-images.githubusercontent.com/94099575/232376725-cff500db-f9ea-4a80-8613-9a256a50bf38.png)
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/94099575/232376630-e62f429a-5427-4489-9d84-61bfdbd51b3b.png)
+![image](https://user-images.githubusercontent.com/94099575/232377847-7e5c4890-73ae-43b3-8f3b-6f039c54d671.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### SIGNUP PAGE
+![image](https://user-images.githubusercontent.com/94099575/232376882-0d24c51b-3f5d-42b6-8761-a304c9a83d26.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### SIGNIN PAGE
+![image](https://user-images.githubusercontent.com/94099575/232376846-6f328438-82f3-499c-b953-d1a67b913c0e.png)
+#### Authentication is done using Firebase,incase password is wrong,user is shown this warning
+![image](https://user-images.githubusercontent.com/94099575/232377035-bedc2b67-defd-41d7-9bee-cc2f6a15d0d5.png)
+#### After Signin user can access account tab 
+![image](https://user-images.githubusercontent.com/94099575/232377236-46f09a66-048a-4a53-89fb-59e7a7d8a067.png)
 
-### `npm test`
+### AccountPAGE
+User can see account page only if he/she is logged in,otherwise he/she will be redirected to the home page .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/94099575/232377139-22818185-3b60-42f1-a578-86d615cad4ed.png)
+User can add favorite shows by clicking on favorite(heart) icon and can see them all in Accounts page.
+![image](https://user-images.githubusercontent.com/94099575/232377522-78d5313c-3679-41d6-b796-c457862de3ba.png)
+User can also delete favorites from their accounts page by clicking on Cross button.
+![image](https://user-images.githubusercontent.com/94099575/232377629-72fdeda3-0507-4d01-a874-5caecf91d1ff.png)
 
-### `npm run build`
+### Logout
+By clicking on Logout Button on the top right.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
